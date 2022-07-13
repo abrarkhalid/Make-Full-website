@@ -90,7 +90,7 @@
     outline: none;
     border-radius: 30px;
 }
-..nawslatter form input:last-child{
+.nawslatter form input:last-child{
     position: absolute;
     display: inline-block;
     outline: none;
@@ -100,6 +100,56 @@
     background-color: #f9004d;
     color: white;
     box-shadow: 0px 0px 5px #000 0px 0px 15px #8585;
-    
+    top: 6px;
+    right: 6px;
+     }
+     .about{
+        width: 100%;
+        padding: 100px 0px;
+        background-color:   #191919 ;
 
-}
+     }
+     .about img{
+        height: auto;
+        width: 430px;
+     }
+     .about_text{
+        width: 550px;
+
+    }
+    .main{
+        width: 1130px;
+        max-width: 95%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .about_text h2{
+        color: white;
+        font-size: 75px;
+        text-transform: capitalize;
+        margin-bottom: 20px;
+    }
+    .about_text h5{
+        color: white;
+        letter-spacing: 2px;
+        font-size: 22px;
+        margin-bottom: 25px;
+        text-transform: capitalize;
+
+    }
+    .about_text p{
+        color: #fcfc;
+        letter-spacing: 1px;
+         line-height: 28px;
+        font-size: 18px;
+        margin-bottom: 45px;
+        text-transform: capitalize;
+    }
+    .button{
+        background-color: #f9004d;
+        color: white;
+        text-decoration: none;
+        border: 2px;
+    }
